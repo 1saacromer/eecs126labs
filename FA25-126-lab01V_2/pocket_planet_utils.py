@@ -63,7 +63,7 @@ class AbstractTree:
         return color
     
     def prefered_location(self):
-        pref_loc = np.argmax(self.dna) 
+        pref_loc = np.argmax(self.dna)
         return pref_loc
     
     def calc_fitness(self, env_type):
